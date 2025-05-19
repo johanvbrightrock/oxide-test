@@ -1,3 +1,159 @@
- <!DOCTYPE html> <html> <head> <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> <title>Hello World! - My first app</title> <meta name="viewport" content="width=device-width"/> <link type="image/png" href="favicon.png?v=1" rel="icon"> <link type="image/png" href="favicon.png?v=1" rel="apple-touch-icon"> <link type="image/png" href="favicon.png?v=1" rel="shortcut icon"> <link href="public/optimum/css/829e05b9f41f6bb84f45efee62d5042f.out.css" rel="stylesheet" type="text/css"/><link href="public/optimum/css/e33d07d014c6673622d983e449fce699.addon.b64.css" rel="stylesheet" type="text/css"/></head> <body> <div class="wrapper"> <div class="hw-back-header"> <div class="hw-back hw-back-1"></div> <div class="hw-back hw-back-2"></div> </div> <div class="page"> <div class="header"> <h1>Hello World</h1> <h2>You did it!</h2> <h3>Your application is now running in the Cloud!</h3> <div class="nodename">
-{{.Hostname}}
-</div> </div> <div class="hw-separator"></div> <div class="links-block-title">Useful links</div> <div class="links-block">  <ul class="links">  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/go-center/">Go Dev Center</a></li>  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/go-center/#go-application-deployment">Deployment Guide</a></li>  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/ssh-access/">SSH Access</a></li>  </ul> <ul class="links">  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/automatic-vertical-scaling/">Automatic Vertical Scaling</a></li>  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/automatic-horizontal-scaling/">Automatic Horizontal Scaling</a></li>  <li><a target="_blank" href="https://www.virtuozzo.com/application-platform-docs/pricing-model/">Pricing FAQ</a></li>  </ul>  </div> <div class="hw-separator"></div> <div class="share"> <div class="social">  <a target="_blank" href="https://www.facebook.com/VirtuozzoInc/" class="facebook"> <svg enable-background="new 0 0 310 310" version="1.1" viewBox="0 0 310 310" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m81.703 165.11h33.981v139.89c0 2.762 2.238 5 5 5h57.616c2.762 0 5-2.238 5-5v-139.24h39.064c2.54 0 4.677-1.906 4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899-0.949-1.064-2.307-1.673-3.732-1.673h-44.996v-32.284c0-9.732 5.24-14.667 15.576-14.667h29.42c2.762 0 5-2.239 5-5v-47.274c0-2.762-2.238-5-5-5h-40.545c-0.286-0.014-0.921-0.037-1.857-0.037-7.035 0-31.488 1.381-50.804 19.151-21.402 19.692-18.427 43.27-17.716 47.358v37.752h-35.673c-2.762 0-5 2.238-5 5v50.844c0 2.762 2.238 5.001 5 5.001z"/> </svg> </a> <a target="_blank" href="https://www.linkedin.com/company/virtuozzo" class="linkedin"> <svg enable-background="new 0 0 310 310" version="1.1" viewBox="0 0 310 310" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m72.16 99.73h-62.233c-2.762 0-5 2.239-5 5v199.93c0 2.762 2.238 5 5 5h62.233c2.762 0 5-2.238 5-5v-199.93c0-2.761-2.238-5-5-5z"/> <path d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4 c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"/> <path d="m230.45 94.761c-24.995 0-43.472 10.745-54.679 22.954v-12.985c0-2.761-2.238-5-5-5h-59.599c-2.762 0-5 2.239-5 5v199.93c0 2.762 2.238 5 5 5h62.097c2.762 0 5-2.238 5-5v-98.918c0-33.333 9.054-46.319 32.29-46.319 25.306 0 27.317 20.818 27.317 48.034v97.204c0 2.762 2.238 5 5 5h62.12c2.762 0 5-2.238 5-5v-109.66c0-49.565-9.451-100.23-79.546-100.23z"/> </svg> </a> <a target="_blank" href="https://twitter.com/virtuozzoinc" class="twitter"> <svg enable-background="new 0 0 310 310" version="1.1" viewBox="0 0 310 310" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m302.97 57.388c-4.87 2.16-9.877 3.983-14.993 5.463 6.057-6.85 10.675-14.91 13.494-23.73 0.632-1.977-0.023-4.141-1.648-5.434-1.623-1.294-3.878-1.449-5.665-0.39-10.865 6.444-22.587 11.075-34.878 13.783-12.381-12.098-29.197-18.983-46.581-18.983-36.695 0-66.549 29.853-66.549 66.547 0 2.89 0.183 5.764 0.545 8.598-45.535-3.998-87.868-26.379-116.94-62.038-1.036-1.271-2.632-1.956-4.266-1.825-1.635 0.128-3.104 1.05-3.93 2.467-5.896 10.117-9.013 21.688-9.013 33.461 0 16.035 5.725 31.249 15.838 43.137-3.075-1.065-6.059-2.396-8.907-3.977-1.529-0.851-3.395-0.838-4.914 0.033-1.52 0.871-2.473 2.473-2.513 4.224-7e-3 0.295-7e-3 0.59-7e-3 0.889 0 23.935 12.882 45.484 32.577 57.229-1.692-0.169-3.383-0.414-5.063-0.735-1.732-0.331-3.513 0.276-4.681 1.597-1.17 1.32-1.557 3.16-1.018 4.84 7.29 22.76 26.059 39.501 48.749 44.605-18.819 11.787-40.34 17.961-62.932 17.961-4.714 0-9.455-0.277-14.095-0.826-2.305-0.274-4.509 1.087-5.294 3.279-0.785 2.193 0.047 4.638 2.008 5.895 29.023 18.609 62.582 28.445 97.047 28.445 67.754 0 110.14-31.95 133.76-58.753 29.46-33.421 46.356-77.658 46.356-121.37 0-1.826-0.028-3.67-0.084-5.508 11.623-8.757 21.63-19.355 29.773-31.536 1.237-1.85 1.103-4.295-0.33-5.998-1.431-1.704-3.816-2.255-5.852-1.353z"/> </svg> </a>  </div> </div> <div class="footer"> &copy; <a id="footer-link" href="https://www.virtuozzo.com/application-platform/" target="_blank">Virtuozzo</a>. All rights reserved. | <a class="company-legal" href="https://www.virtuozzo.com/legal/" target="_blank">Privacy & Legal</a> </div> </div> <div class="hw-back-footer"> <div class="hw-back hw-back-3"></div> <div class="hw-back hw-back-4"></div> </div> </div> <script>(function(e,a,f){var c,b=e.getElementsByTagName(a)[0];if(e.getElementById(f)){return}c=e.createElement(a);c.id=f;c.src="//connect.facebook.net/en_US/all.js#xfbml=1";b.parentNode.insertBefore(c,b)}(document,"script","facebook-jssdk"));var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-24049059-10"]);_gaq.push(["_setDomainName","example.com"]);_gaq.push(["_setAllowLinker",true]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();</script> <script src="public/optimum/js/3f86f20d03fb70778d71baa0658ad452.out.js" type="text/javascript"></script></body> </html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BrightRock – The Needs-Matched Money Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333333;
+    }
+    header, footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333333;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #e0f7fa;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .section p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta {
+      background-color: #ffcc80;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .cta h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .cta form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cta input, .cta select, .cta button {
+      margin: 10px 0;
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+    }
+    .svg-icon {
+      width: 100px;
+      height: auto;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Embedded BrightRock Logo SVG -->
+    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+      <!-- SVG content goes here -->
+      <text x="0" y="35" font-size="35" fill="#000000">BrightRock</text>
+    </svg>
+    <nav>
+      <a href="#life-cover">Life Cover</a>
+      <a href="#change-exchange">Change Exchange</a>
+      <a href="#partnerships">Partnerships</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to BrightRock</h1>
+    <p>The needs-matched money company. Helping you navigate life's big Change Moments with tailored financial solutions.</p>
+  </section>
+
+  <section class="section" id="life-cover">
+    <h2>Individual Life Cover</h2>
+    <p>Our needs-matched life insurance is a world first. It adapts as your life changes, giving you the protection you need every step of the way.</p>
+    <!-- Embedded SVG Illustration -->
+    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <!-- SVG content goes here -->
+      <circle cx="50" cy="50" r="40" stroke="#000000" stroke-width="3" fill="#ffffff" />
+    </svg>
+  </section>
+
+  <section class="section" id="change-exchange">
+    <h2>The Change Exchange</h2>
+    <p>Tips and tools to help you navigate life's big Change Moments. Explore inspiring stories, helpful tools, and expert opinions that matter.</p>
+    <!-- Embedded SVG Illustration -->
+    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <!-- SVG content goes here -->
+      <rect x="10" y="10" width="80" height="80" stroke="#000000" stroke-width="3" fill="#ffffff" />
+    </svg>
+  </section>
+
+  <section class="section" id="partnerships">
+    <h2>BrightRock Partnerships</h2>
+    <p>We love Change and play the bounce. Supporting and embracing change in various spheres, including sports and media.</p>
+    <!-- Embedded SVG Illustration -->
+    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <!-- SVG content goes here -->
+      <polygon points="50,15 80,85 20,85" stroke="#000000" stroke-width="3" fill="#ffffff" />
+    </svg>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Sign Me Up</h2>
+    <form action="/submit-form" method="post">
+      <input type="text" name="full_name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <select name="province" required>
+        <option value="">-- Choose Province --</option>
+        <option value="Western Cape">Western Cape</option>
+        <option value="Eastern Cape">Eastern Cape</option>
+        <option value="Northern Cape">Northern Cape</option>
+        <option value="Gauteng">Gauteng</option>
+        <option value="North West">North West</option>
+        <option value="Mpumalanga">Mpumalanga</option>
+        <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+        <option value="Free State">Free State</option>
+        <option value="Limpopo">Limpopo</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact us: 0860 00 77 44 | service@brightrock.co.za</p>
+    <p>165 West Street, Sandton, Gauteng, South Africa</p>
+    <p>&copy; 2025 BrightRock Life Ltd. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

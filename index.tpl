@@ -87,7 +87,7 @@
     </svg>
     <nav>
       <a href="#life-cover">Life Cover</a>
-      <a href="#change-exchange">Change Exchange</a>
+      <a href="#change-exchange">Change Exchange JOhan</a>
       <a href="#partnerships">Partnerships</a>
       <a href="#contact">Contact</a>
     </nav>
